@@ -4,19 +4,19 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>360</x>
-      <y>30</y>
-      <w>60</w>
+      <x>150</x>
+      <y>20</y>
+      <w>80</w>
       <h>110</h>
     </coordinates>
-    <panel_attributes>Actor</panel_attributes>
+    <panel_attributes>L'abonner</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>660</x>
-      <y>30</y>
+      <x>460</x>
+      <y>20</y>
       <w>100</w>
       <h>100</h>
     </coordinates>
@@ -27,8 +27,8 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>120</y>
+      <x>180</x>
+      <y>110</y>
       <w>30</w>
       <h>780</h>
     </coordinates>
@@ -38,12 +38,60 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>120</y>
+      <x>500</x>
+      <y>110</y>
       <w>30</w>
       <h>780</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;760.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>160</y>
+      <w>350</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Selectionne un film</panel_attributes>
+    <additional_attributes>330.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>260</y>
+      <w>350</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Met ce film en favoris</panel_attributes>
+    <additional_attributes>330.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>210</y>
+      <w>350</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+Revoie la fiche du film</panel_attributes>
+    <additional_attributes>10.0;20.0;330.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>310</y>
+      <w>350</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+Revoie la liste des films preferes mis a jour</panel_attributes>
+    <additional_attributes>10.0;20.0;330.0;20.0</additional_attributes>
   </element>
 </diagram>
